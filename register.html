@@ -1,0 +1,113 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/registration.css">
+    <script type="text/javascript" src="registration.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TutorLabs</title>
+</head>
+<body onload="Captcha();">
+    <nav>
+        <div class="logos">
+            
+            <div class="brand">
+                <img src="/static/Assest/tl.png" alt="">
+               
+            </div>
+        </div>
+        </div>
+        <div class="label">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>My Classes</a></li>
+                <li><a>Reports</a></li>
+                <li><a>Contact</a></li>
+                <li><img src="/static/Assest/generic-avatar%203.png" alt="" /></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <div class="left-side">
+            <!-- <img src="../Assest/profile.jpg" alt="" />-->
+            <h6 class="register">REGISTRATION</h6> 
+            <div class="center">
+                <h5>
+                    Let's get you Started...
+                </h5>
+                <h6>Fill your registration form and start your journey with us.</h6>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="blue title">
+                <h4><strong>Reigister free account</strong></h4>
+                <h6>or use following methods</h6>
+            </div>
+            <br/>
+            
+            <form action="">
+                <div class="flex-SB">
+                    <img src="/static/Assest/google-button.png" alt="" />
+                    <img src="/static/Assest/facebook-button.png" alt="" />
+                </div>
+                <br/>
+                <div class="flex check">
+                    <span class="blue">Already have an account ?</span> <p><a href="/sendOtp">Log In</a></p>
+                </div><br/>
+                <div class="form-inputs">
+                    <input type="text" name="fullname" id="fullname" placeholder="Full Name" />
+                </div>
+                <br/>
+                <div class="form-inputs">
+                    <input type="text" name="lname" id="lname" placeholder="Last Name" />
+                </div>
+                <br/>
+                <div class="form-inputs">
+                    <input type="text" name="capatcha" id="txtInput" placeholder="Enter Capatcha" />
+                </div>
+                <br/>
+                <a>
+                    <table>
+                        
+                        <tr>
+                         <td>
+                           <input type="text" id="mainCaptcha"/>
+                            <button id="refresh" onclick="Captcha();">
+                                <i class="fa fa-refresh" aria-hidden="true"></i></button>
+                         
+                        </td>
+                        </tr>
+                        
+                    </table>
+                </a><br/><br/>
+                <div class="buttons">
+                    <input type="submit" id="Button1" value="Sign Up" onclick="alert(ValidCaptcha());"/>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>Terms and Conditions</li>
+            <li>|</li>
+            <li>Privacy Policy</li>
+            <li>|</li>
+            <li>Help</li>
+            <li>|</li>
+            <li>TutorLabs Licenses</li>
+            <li>|</li>
+            <li>Partners</li>
+            <li>|</li>
+            <li class="flex">
+                <label for="Lang">Language</label>
+                <h4 id="Lang">English</h4>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

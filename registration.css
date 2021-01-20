@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav Bar */
+
+.logos{
+    margin-left: 1em;
+    display: flex;
+}
+
+.logo{
+    width: 2em;
+    align-self: center;
+    height: 2.4em;
+}
+
+.brand{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    width: 100%;
+    height: 61px;
+    left: 0px;
+    top: 0px;
+    background: #0D3451;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label ul{
+    display: flex;
+    list-style-type: None;
+}
+
+.label ul li{
+    color: #FFFF;
+    font-size: 0.7em;
+    margin: 0.5em;
+    align-self: center;
+}
+/*container*/
+
+.main-container{
+    border: #E0DEDE;
+    display: flex;
+    margin-left: 20vw;
+    margin-top: 4vh;
+    justify-content: center;
+    width: 611px;
+    height: 489px;
+    background: #FFFFFF;
+    border: 1px solid #E0DEDE;
+    border-radius: 4px;
+    }
+
+    .left-side{
+        width: 20vw;
+        background: #E2EDFF;
+        
+    }
+
+    .register{
+        text-align: center;
+        margin-top: 0.5em;
+        font-size: 1.2em;
+        color: #0D3451;
+    }
+    .center{
+        text-align: center;
+        margin-top: 20vh;
+    }
+    .right-side{
+        padding-left:2em;
+        padding-right:2em;
+        width: 45vw;
+
+    }
+    form{
+        justify-content: center;
+    }
+    .form-inputs input[type = "text"]:focus{
+        border: none;
+        outline: 2px solid #F67A06;
+        
+    }
+
+    .form-inputs #fullname, #lname, #txtInput {
+        width: 306px;
+        height: 32px;
+        background: #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 2px;
+    }
+    .flex{
+        text-align: center;
+        display: flex;
+    }
+
+    .blue{
+        text-align: center;
+        color: #0D3451;
+        text-decoration: none;
+    }
+    .flex span, .flex p{
+        font-size: 0.6em;
+    }
+    
+    .flex h6{
+        align-self: center;
+    }
+    .flex-SB img{
+        width: 168px;
+        height: 28px;
+    }
+
+    #mainCaptcha{
+        width: 173px;
+        height: 72px;
+        border: 1px solid #787373;
+        box-sizing: border-box;
+        font-style: italic;
+        font-family: cursive;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+
+    .buttons input{
+        background: #3062AD;
+        border: none;
+        width: 18vw;
+        padding: 0.7em 0em;
+        border-radius: 50px;
+        color: #FFFFFF;
+        margin: 0em 2em;
+        margin-bottom: 2em;
+    }
+    
+    
+    .buttons input:focus{
+        outline: none;
+    }
+    
+    .buttons input:hover{
+        cursor: pointer;
+    }
+
+
+/* footer */
+
+.footer{
+    position: absolute;   
+    width: 100%;
+    height: 44px;
+    left: 0px;
+    bottom: 0px;
+    margin-top: 96vh;
+
+    background: #F3F3F3;
+    
+}
+
+.footer ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 0.5em;
+    margin-left: 50vw;
+}
+
+.footer ul li{
+    margin: 1em 0.5em;
+}
+
+.flex h4{
+    margin-left: 0.5em;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    margin-top: 0.5em;
+    border: 1px solid #787373;
+    cursor: pointer;
+    text-align: end;
+}
+
+.custom-file-upload input[type=button]{
+    padding-right: 1em;
+    margin: 0;
+    width: 6em;
+    border: none;
+    background-color: #C4C4C4;
+}
+
+.form-inputs h6{
+    color: #787373;
+}
